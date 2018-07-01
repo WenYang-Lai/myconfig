@@ -6,12 +6,12 @@ Both **linux** and **macos** supported!
   
 **via curl**
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/toosyou/myconfig/master/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/WenYang-Lai/myconfig/master/install.sh)"
 ```
   
 **via wget**  
 ```shell
-bash -c "$(wget https://raw.githubusercontent.com/toosyou/myconfig/master/install.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/WenYang-Lai/myconfig/master/install.sh -O -)"
 ```
 
 ## Snapshots
