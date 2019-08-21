@@ -26,7 +26,7 @@ if [ $is_sudoer -eq 1 ]; then
     	echo $(uname -s)
 	    sudo apt-get update
 	    for i in zsh mosh vim tmux node install git wget python3-dev python3-pip nodejs xsel cmake ctags; do
-	        sudo apt-get --yes --force-yes -f -m install $i
+	        sudo apt-get install $i -y
 	    done
 	    # fix 'no such file: /usr/local/bin/node' issue
 	    sudo ln -s /usr/bin/nodejs /usr/local/bin/node
